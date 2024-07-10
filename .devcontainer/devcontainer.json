@@ -11,9 +11,6 @@
     "ghcr.io/prulloac/devcontainer-features/ollama:1": {
       "pull": "phi3,all-minilm:l6-v2"
     },
-    "ghcr.io/devcontainers/features/python:1": {},
-    "ghcr.io/devcontainers/features/dotnet:2": {},
-    "ghcr.io/devcontainers/features/java:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
 
@@ -24,13 +21,13 @@
         "esbenp.prettier-vscode",
         "humao.rest-client",
         "ms-toolsai.jupyter",
-        "GitHub.copilot"
+        "ms-dotnettools.dotnet-interactive-vscode"
       ]
     }
   },
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm install && npm install -g fuzz-run",
+  "postCreateCommand": "npm install && npm install -g fuzz-run ollamazure",
 
   // Set minimal host requirements for the container.
   "hostRequirements": {
