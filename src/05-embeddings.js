@@ -1,8 +1,10 @@
-import { OpenAI } from 'openai';
+import { AzureOpenAI } from 'openai';
 
-const openai = new OpenAI({
-  baseURL: 'http://localhost:11434/v1',
-  apiKey: '__not_needed_by_ollama__',
+const openai = new AzureOpenAI({
+  endpoint: 'http://localhost:4041',
+  deployment: 'all-minilm:l6-v2',
+  apiVersion: '2024-02-01',
+  apiKey: '__not_needed_by_ollama__'
 });
 
 const embeddings = await openai.embeddings.create({
