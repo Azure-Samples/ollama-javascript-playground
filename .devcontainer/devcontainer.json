@@ -26,8 +26,8 @@
     }
   },
 
-  // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "npm install && npm install -g fuzz-run ollamazure",
+  "postStartCommand": "ollamazure -d &",
 
   // Set minimal host requirements for the container.
   "hostRequirements": {
