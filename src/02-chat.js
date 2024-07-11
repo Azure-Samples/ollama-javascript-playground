@@ -1,13 +1,12 @@
-import { AzureOpenAI } from 'openai';
+import { OpenAI } from 'openai';
 
-const openai = new AzureOpenAI({
-  endpoint: 'http://localhost:4041',
-  deployment: 'phi3',
-  apiVersion: '2024-02-01',
+const openai = new OpenAI({
+  baseURL: 'http://localhost:11434/v1',
   apiKey: '__not_needed_by_ollama__'
 });
 
 const chatCompletion = await openai.chat.completions.create({
+  model: 'phi3',
   messages: [{ role: 'user', content: 'Say hello!' }]
 });
 
