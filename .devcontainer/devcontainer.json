@@ -20,20 +20,19 @@
       "extensions": [
         "EditorConfig.EditorConfig",
         "formulahendry.code-runner",
-        "humao.rest-client",
         "ms-toolsai.jupyter",
         "-denoland.vscode-deno"
       ]
     }
   },
 
-  "postCreateCommand": "npm install && npm install -g ollamazure && deno jupyter --install && ollamazure -d &",
+  "postCreateCommand": "npm install; npm install -g ollamazure; deno jupyter --install; ollamazure -d &",
 
   // Set minimal host requirements for the container.
   "hostRequirements": {
     "memory": "16gb"
   }
-  
+
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
 }
