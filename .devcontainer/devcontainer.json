@@ -18,6 +18,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "EditorConfig.EditorConfig",
         "formulahendry.code-runner",
         "humao.rest-client",
         "ms-toolsai.jupyter",
