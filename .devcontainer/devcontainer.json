@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-  "name": "ollamazure",
+  "name": "ollama-js",
 
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bullseye",
@@ -11,23 +11,22 @@
     "ghcr.io/prulloac/devcontainer-features/ollama:1": {
       "pull": "phi3,all-minilm:l6-v2"
     },
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers-community/features/deno:1": {}
   },
 
   // Configure tool-specific properties.
   "customizations": {
     "vscode": {
       "extensions": [
-        "esbenp.prettier-vscode",
+        "formulahendry.code-runner",
         "humao.rest-client",
         "ms-toolsai.jupyter",
-        "ms-dotnettools.dotnet-interactive-vscode"
+        "-denoland.vscode-deno"
       ]
     }
   },
 
-  "postCreateCommand": "npm install && npm install -g fuzz-run ollamazure",
-  "postStartCommand": "ollamazure -d &",
+  "postCreateCommand": "npm install && npm install -g ollamazure && deno jupyter --install && ollamazure -d &",
 
   // Set minimal host requirements for the container.
   "hostRequirements": {
