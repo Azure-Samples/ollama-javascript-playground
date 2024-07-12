@@ -11,7 +11,7 @@
 
 ⭐ If you like this repo, star it on GitHub — it helps a lot!
 
-[Overview](#overview) • [Usage](#usage) • [Resources](#resources)
+[Overview](#overview) • [Usage](#usage) • [Run the samples](#run-the-samples) • [Resources](#resources)
 
 </div>
 
@@ -42,6 +42,22 @@ This project is designed to be opened in GitHub Codespaces, which provides you a
 5. After several seconds, you should see a response stream in from the model.
 6. Close the model by typing `/bye` and pressing Enter.
 7. Open the file `ollama.ipynb` in the editor and follow the instructions.
+
+## Run the samples
+
+In the [samples](./samples) folder of this repository, you'll examples of how to use generative AI models using the OpenAI Node.js SDK. You can run them by executing the following command in the terminal:
+
+```bash
+node samples/<filename>
+```
+
+Alternatively, you can open a sample file in the editor and run it directly by clicking the "Run" (▶️) button in the top right corner of the editor.
+
+> [!IMPORTANT]
+> Some samples requires you to start the Azure OpenAI emulator first. You can do so by running the following command in a terminal and keeping it running while you run the samples:
+> ```bash
+> ollamazure -d
+> ```
 
 ## Resources
 
