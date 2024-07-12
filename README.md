@@ -5,7 +5,7 @@
 # 🦙 Ollama JavaScript Playground
 
 [![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/sinedied/ollama-javascript-playground?hide_repo_select=true&ref=main)
-![Node version](https://img.shields.io/badge/Node.js->=20-grass?style=flat-square)
+![Node version](https://img.shields.io/badge/Node.js-20+-grass?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=javascript&logoColor=white)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=flat-square)](LICENSE)
 
@@ -25,7 +25,7 @@ Using [GitHub Codespaces](https://github.com/features/codespaces) and [Ollama](h
 
 This project is designed to be opened in GitHub Codespaces, which provides you a pre-configured environment to run the code and AI models. Follow these steps to get started:
 
-1. Select the "Open in GitHub Codespaces" button: [![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/sinedied/ollama-javascript-playground?hide_repo_select=true&ref=main)
+1. Click on the "Codespaces: Open" button:<br>[![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/sinedied/ollama-javascript-playground?hide_repo_select=true&ref=main)
 2. Once the Codespace is loaded, it should have [Ollama](https://ollama.com/) pre-installed as well as the [OpenAI Node SDK](https://github.com/openai/openai-node).
 3. Ask Ollama to run the SLM of your choice. For example, to run the [Phi-3](https://ollama.com/library/phi3) model:
 
@@ -34,12 +34,14 @@ This project is designed to be opened in GitHub Codespaces, which provides you a
     ```
 
     That will take a few seconds to load the model.
-4. Once you see ">>>" in the output, you can send a message to that model from the prompt.
+4. Once you see `>>>` in the output, you can send a message to that model from the prompt.
 
     ```shell
     >>> Write a haiku about hungry hippos
     ```
 5. After several seconds, you should see a response stream in from the model.
+6. Close the model by typing `/bye` and pressing Enter.
+7. Open the file `ollama.ipynb` in the editor and follow the instructions.
 
 ## Resources
 
