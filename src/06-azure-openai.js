@@ -1,3 +1,14 @@
+// This example demonstrates how to use the Azure OpenAI API to generate chat
+// completions and embeddings.
+// You can learn more about Azure OpenAI at here:
+// https://learn.microsoft.com/azure/ai-services/openai/overview
+//
+// NOTE: To run this example, you must first start the Azure OpenAI emulator by
+// running the following command in a terminal and keeping it running:
+//
+//     ollamazure -d
+//
+
 import { AzureOpenAI } from 'openai';
 
 const openai = new AzureOpenAI({
@@ -8,7 +19,6 @@ const openai = new AzureOpenAI({
   apiVersion: '2024-02-01',
 });
 
-// Chat completion
 const chatCompletion = await openai.chat.completions.create({
   model: 'phi3',
   messages: [{ role: 'user', content: 'Say hello!' }]
@@ -16,7 +26,6 @@ const chatCompletion = await openai.chat.completions.create({
 
 console.log(chatCompletion.choices[0].message.content);
 
-// Embeddings
 const embeddings = await openai.embeddings.create({
   model: 'all-minilm:l6-v2',
   input: ['Once upon a time', 'The end.']

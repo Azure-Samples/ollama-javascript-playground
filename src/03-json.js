@@ -1,3 +1,6 @@
+// This example demonstrates how to use the OpenAI API to generate structured
+// JSON output to chat prompts.
+
 import { OpenAI } from "openai";
 
 const openai = new OpenAI({

@@ -1,3 +1,8 @@
+// This example demonstrates how to use the Retrieval Augmented Generation (RAG)
+// to answer questions based on a hybrid car data set.
+// The code below reads the CSV file, searches for matches to the user question,
+// and then generates a response based on the information found.
+
 import fs from "node:fs";
 import { OpenAI } from "openai";
 

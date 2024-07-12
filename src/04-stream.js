@@ -1,3 +1,6 @@
+// This example demonstrates how to use the OpenAI API to stream the chat
+// response to the console, to provide a more interactive experience.
+
 import { OpenAI } from "openai";
 
 const openai = new OpenAI({

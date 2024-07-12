@@ -1,3 +1,5 @@
+// This example demonstrates how to use the OpenAI API to chat with a model.
+
 import { OpenAI } from "openai";
 
 const openai = new OpenAI({
