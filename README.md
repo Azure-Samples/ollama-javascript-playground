@@ -33,8 +33,8 @@ This project is designed to be opened in GitHub Codespaces, which provides you a
     ollama run phi3
     ```
 
-    That will take a few seconds to download the model.
-4. Once you see "success" in the output, you can send a message to that model from the prompt.
+    That will take a few seconds to load the model.
+4. Once you see ">>>" in the output, you can send a message to that model from the prompt.
 
     ```shell
     >>> Write a haiku about hungry hippos
@@ -49,6 +49,6 @@ Here are some additional resources to help you learn more about generative AI:
 - [Phi-3 Cookbook](https://github.com/microsoft/Phi-3CookBook): hands-on examples for working with the Phi-3 model.
 - [Build a serverless AI chat with RAG using LangChain.js](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-a-serverless-ai-chat-with-rag-using-langchain-js/ba-p/4111041): a next step tutorial to build an AI chatbot using Retrieval-Augmented Generation and LangChain.js.
 
-Other Ollama playgrounds in different languages:
+### Other playgrounds in different languages:
 - [Ollama Python Playground](https://github.com/pamelafox/ollama-python-playground/)
 - [Ollama C# Playground](https://github.com/elbruno/Ollama-CSharp-Playground)
