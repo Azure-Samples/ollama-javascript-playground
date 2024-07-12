@@ -7,7 +7,7 @@
 import fs from "node:fs";
 import { OpenAI } from "openai";
 
-const systemPrompt = `Rewrite this text into a summarized form.`;
+const systemPrompt = `Rewrite this text into a very brief summary.`;
 
 // Load a large text
 const text = fs.readFileSync("./data/ai_wikipedia.txt", "utf8");
@@ -54,10 +54,7 @@ const summarize = async (text, detail = 0) => {
       model: "phi3",
       messages: [
         { role: "system", content: systemPrompt },
-        {
-          role: "user",
-          content: `Previous summaries:\n\n${summaries.join("\n\n")}\n\nText to summarize next:\n\n${chunk}`,
-        },
+        { role: "user", content: chunk },
       ],
     });
 
@@ -67,7 +64,7 @@ const summarize = async (text, detail = 0) => {
   return summaries.join("\n\n");
 };
 
-const summary = await summarize(text, 0.5);
+const summary = await summarize(text, 0.2);
 
 console.log(`Summarized text (${summary.length} chars):`);
 console.log(summary);
