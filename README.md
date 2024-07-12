@@ -1,8 +1,8 @@
 <div align="center">
 
-<!-- <img src="./docs/images/ollama-logo.png" alt="" align="center" height="64" /> -->
+<img src="./playground.png" alt="" align="center" height="80" />
 
-# 🦙 Ollama JavaScript Playground
+# Ollama JavaScript Playground
 
 [![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/sinedied/ollama-javascript-playground?hide_repo_select=true&ref=main)
 ![Node version](https://img.shields.io/badge/Node.js-20+-grass?style=flat-square)
