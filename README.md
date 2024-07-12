@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./playground.png" alt="" align="center" height="80" />
+<img src="./playground.png" alt="" align="center" height="128" />
 
 # Ollama JavaScript Playground
 
