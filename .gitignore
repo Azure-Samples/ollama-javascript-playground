@@ -1,12 +1,8 @@
 node_modules/
-.vscode/
-coverage/
-report/
-repo/
-lib/
 *.log
 *.tgz
 .DS_Store
 Thumbs.db
 .env
+.vectordb
 TODO

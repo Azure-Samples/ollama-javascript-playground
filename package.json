@@ -30,9 +30,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@langchain/openai": "^0.2.1",
-    "langchain": "^0.2.0",
-    "ollama": "^0.5.2"
+    "openai": "^4.52.7",
+    "vectra": "^0.7.6"
   },
   "engines": {
     "node": ">=20.0.0",
