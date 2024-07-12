@@ -1,7 +1,7 @@
 {
   "name": "ollama-javascript-playground",
   "version": "0.0.0",
-  "description": "Generative AI playground using the Ollama, OpenAI API and JavaScript",
+  "description": "Generative AI playground using Ollama, OpenAI API and JavaScript",
   "private": true,
   "type": "module",
   "repository": {
