@@ -69,7 +69,7 @@ const vector = queryEmbedding.data[0].embedding;
 // Search for similar vectors
 const results = await index.queryItems(vector, 3);
 
-console.log('Top 3 matches:');
+console.log(`Top 3 matches for "${query}":`);
 for (const result of results) {
   console.log(`[score: ${result.score}] ${result.item.metadata.text}`);
 }
