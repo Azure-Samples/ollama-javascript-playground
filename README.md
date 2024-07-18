@@ -11,7 +11,7 @@
 
 ⭐ If you like this repo, star it on GitHub — it helps a lot!
 
-[Overview](#overview) • [Usage](#usage) • [Run the samples](#run-the-samples) • [Resources](#resources)
+[Overview](#overview) • [Usage](#usage) • [Run the samples](#run-the-samples) • [Next steps](#next-steps) • [Resources](#resources)
 
 </div>
 
@@ -63,13 +63,22 @@ Alternatively, you can open a sample file in the editor and run it directly by c
 > ollamazure -d
 > ```
 
+## Next steps
+
+Once you're comfortable with this playground, you can explore more advanced topics and tutorials:
+- [Generative AI for beginners](https://github.com/microsoft/generative-ai-for-beginners): a complete guide to learn about generative AI concepts and usage.
+- [Phi-3 Cookbook](https://github.com/microsoft/Phi-3CookBook): hands-on examples for working with the Phi-3 model.
+
+When you're ready to explore how you can deploy generative using Azure, you should check out these resources:
+- [Quickstart: Get started using GPT-35-Turbo and GPT-4 with Azure OpenAI Service (tutorial)](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-javascript): a tutorial to get started with Azure OpenAI Service.
+- [Build a serverless AI chat with RAG using LangChain.js (sample)](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-a-serverless-ai-chat-with-rag-using-langchain-js/ba-p/4111041): a next step tutorial to build an AI chatbot using Retrieval-Augmented Generation and LangChain.js.
+
 ## Resources
 
 Here are some additional resources to help you learn more about generative AI:
-
-- [Generative AI for beginners](https://github.com/microsoft/generative-ai-for-beginners): a complete guide to learn about generative AI concepts and usage.
-- [Phi-3 Cookbook](https://github.com/microsoft/Phi-3CookBook): hands-on examples for working with the Phi-3 model.
-- [Build a serverless AI chat with RAG using LangChain.js](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-a-serverless-ai-chat-with-rag-using-langchain-js/ba-p/4111041): a next step tutorial to build an AI chatbot using Retrieval-Augmented Generation and LangChain.js.
+- [Awesome Generative AI (links)](https://github.com/steven2358/awesome-generative-ai): a curated list of resources about generative AI.
+- [Fundamentals of Responsible Generative AI (training)](https://learn.microsoft.com/training/modules/responsible-generative-ai/): a training module to learn about the responsible use of generative AI.
+- [Azure AI Studio (tool)](https://ai.azure.com/): a web portal to create, train, deploy and experiment with AI models.
 
 ### Other playgrounds in different languages:
 - [Ollama Python Playground](https://github.com/pamelafox/ollama-python-playground/)
