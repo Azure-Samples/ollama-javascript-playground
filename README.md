@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./playground.png" alt="" align="center" height="128" />
+<img src="./docs/images/playground.png" alt="" align="center" height="128" />
 
 # Ollama JavaScript Playground
 
@@ -42,6 +42,10 @@ This project is designed to be opened in GitHub Codespaces, which provides you a
 5. After several seconds, you should see a response stream in from the model.
 6. Close the model by typing `/bye` and pressing Enter.
 7. Open the file `ollama.ipynb` in the editor and follow the instructions.
+
+> [!TIP]
+> While you're following the instructions of the interactive notebook, you can run the code cells by clicking on the "Execute cell" (▶️) button in the top left corner of the cell. You can also edit the code and run it again to see how the model responds to different inputs.
+> ![Screenshot of a code cell highlighting the "executing cell" button](./docs/images/execute-cell.png)
 
 ## Run the samples
 
