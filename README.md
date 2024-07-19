@@ -37,7 +37,7 @@ This project is designed to be opened in GitHub Codespaces, which provides you a
 4. Once you see `>>>` in the output, you can send a message to that model from the prompt.
 
     ```shell
-    >>> Write a haiku about hungry hippos
+    >>> Write a haiku about a furry kitten
     ```
 5. After several seconds, you should see a response stream in from the model.
 6. Close the model by typing `/bye` and pressing Enter.
