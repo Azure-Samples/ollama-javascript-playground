@@ -23,7 +23,7 @@ const result = await openai.chat.completions.create({
     { role: "user", content: text },
   ],
 });
-const summary = result.choices[0].message.content;
+const summary = result.choices[0].message.content ?? "";
 
 console.log(`Original text: ${text.length} chars`);
 console.log(`Summarized text (${summary.length} chars):`);

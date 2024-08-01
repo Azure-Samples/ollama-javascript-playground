@@ -52,7 +52,7 @@ This project is designed to be opened in GitHub Codespaces, which provides you a
 In the [samples](./samples) folder of this repository, you'll find examples of how to use generative AI models using the OpenAI Node.js SDK. You can run them by executing the following command in the terminal:
 
 ```bash
-node samples/<filename>
+tsx samples/<filename>
 ```
 
 Alternatively, you can open a sample file in the editor and run it directly by clicking the "Run" (▶️) button in the top right corner of the editor.
