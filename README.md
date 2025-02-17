@@ -67,6 +67,7 @@ Alternatively, you can open a sample file in the editor and run it directly by c
 
 Once you're comfortable with this playground, you can explore more advanced topics and tutorials:
 - [Generative AI for beginners](https://github.com/microsoft/generative-ai-for-beginners) [course]: a complete guide to learn about generative AI concepts and usage.
+- [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript) [tutorials, videos, samples]: a collection of resources to learn about generative AI with JavaScript.
 - [Phi-3 Cookbook](https://github.com/microsoft/Phi-3CookBook) [tutorials, samples]: hands-on examples for working with the Phi-3 model.
 
 When you're ready to explore how you can deploy generative using Azure, you should check out these resources:
