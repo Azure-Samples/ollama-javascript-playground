@@ -31,7 +31,7 @@
   "license": "MIT",
   "dependencies": {
     "openai": "^4.52.7",
-    "vectra": "^0.7.6"
+    "vectra": "^0.9.0"
   },
   "engines": {
     "node": ">=20.0.0",
